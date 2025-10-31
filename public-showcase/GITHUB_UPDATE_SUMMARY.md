@@ -386,6 +386,5 @@ The repository is now fully equipped with:
 ---
 
 **Generated:** October 31, 2025  
-**Author:** AI Assistant (GitHub Copilot)  
-**For:** Mounesh Kodi / CruxLabx Research & Development  
+**Author:** Mounesh Kodi / CruxLabx Research & Development  
 **Project:** IntraMind v1.1 Public Showcase
