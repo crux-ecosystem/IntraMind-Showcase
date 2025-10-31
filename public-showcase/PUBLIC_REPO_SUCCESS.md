@@ -11,9 +11,9 @@
 
 ### Repository Details
 - **Name:** IntraMind-Showcase
-- **URL:** https://github.com/sunny2196/IntraMind-Showcase
+- **URL:** https://github.com/crux-ecosystem/IntraMind-Showcase
 - **Visibility:** 🌍 **PUBLIC** (Anyone can view!)
-- **Owner:** sunny2196
+- **Owner:** crux-ecosystem
 - **Purpose:** Professional showcase with performance charts & mathematical proofs
 
 ---
@@ -37,19 +37,19 @@
 ## 🔗 Quick Access Links
 
 **Main Repo:**  
-https://github.com/sunny2196/IntraMind-Showcase
+https://github.com/crux-ecosystem/IntraMind-Showcase
 
 **Performance Charts:**  
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/performance-comparison.png
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/benchmark-results.png
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/speedup-gains.png
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/context-optimization.png
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/architecture-flow.png
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/performance-comparison.png
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/benchmark-results.png
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/speedup-gains.png
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/context-optimization.png
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/architecture-flow.png
 
 **Documentation:**  
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/PERFORMANCE_PROOFS.md
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/MATHEMATICAL_VALIDATION.md
-- https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/README.md
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/PERFORMANCE_PROOFS.md
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/MATHEMATICAL_VALIDATION.md
+- https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/README.md
 
 ---
 
@@ -58,7 +58,7 @@ https://github.com/sunny2196/IntraMind-Showcase
 ### For LinkedIn/Portfolio
 ```markdown
 Check out my IntraMind project with 1500x query speedup!
-📊 Performance Charts: https://github.com/sunny2196/IntraMind-Showcase
+📊 Performance Charts: https://github.com/crux-ecosystem/IntraMind-Showcase
 🔬 Mathematical Proofs: Validated with 99.9% confidence (p<0.001)
 ```
 
@@ -66,11 +66,11 @@ Check out my IntraMind project with 1500x query speedup!
 ```latex
 \cite{kodi2025intramind}
 % See performance validation at:
-% https://github.com/sunny2196/IntraMind-Showcase/blob/main/showcase/PERFORMANCE_PROOFS.md
+% https://github.com/crux-ecosystem/IntraMind-Showcase/blob/main/showcase/PERFORMANCE_PROOFS.md
 ```
 
 ### For Presentations
-- Download charts from: `https://github.com/sunny2196/IntraMind-Showcase/tree/main/showcase`
+- Download charts from: `https://github.com/crux-ecosystem/IntraMind-Showcase/tree/main/showcase`
 - Use in PowerPoint, Google Slides, LaTeX beamer
 - All charts are 300 DPI (publication quality)
 
@@ -101,7 +101,7 @@ Check out my IntraMind project with 1500x query speedup!
 
 All claims validated with rigorous statistical testing (p<0.001).
 
-🔗 Technical Details: https://github.com/sunny2196/IntraMind-Showcase
+🔗 Technical Details: https://github.com/crux-ecosystem/IntraMind-Showcase
 📊 Performance Charts & Mathematical Proofs Available
 
 #AI #MachineLearning #RAG #OpenSource #Research
@@ -116,7 +116,7 @@ IntraMind v1.1: Offline RAG with 1500x query speedup 🚀
 ✅ Neuro-Weaver → 16.7% context reduction
 ✅ All validated with p<0.001
 
-Charts & proofs: https://github.com/sunny2196/IntraMind-Showcase
+Charts & proofs: https://github.com/crux-ecosystem/IntraMind-Showcase
 
 #AI #RAG #OpenSource
 ```
@@ -164,7 +164,7 @@ Since the repository is now **PUBLIC**, you can:
 
 **Your IntraMind showcase is now LIVE and PUBLIC!**
 
-📍 **View it here:** https://github.com/sunny2196/IntraMind-Showcase
+📍 **View it here:** https://github.com/crux-ecosystem/IntraMind-Showcase
 
 Anyone in the world can now:
 - ✅ View your professional performance charts
@@ -184,4 +184,4 @@ Anyone in the world can now:
 
 **Last Updated:** October 31, 2025  
 **Status:** ✅ LIVE & PUBLIC  
-**Repository:** https://github.com/sunny2196/IntraMind-Showcase
+**Repository:** https://github.com/crux-ecosystem/IntraMind-Showcase

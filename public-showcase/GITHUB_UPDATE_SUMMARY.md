@@ -1,7 +1,7 @@
 # GitHub Showcase Update - Complete ✅
 
 **Date:** October 31, 2025  
-**Repository:** https://github.com/sunny2196/IntraMind-Showcase (PUBLIC)  
+**Repository:** https://github.com/crux-ecosystem/IntraMind-Showcase (PUBLIC)  
 **Status:** Successfully Updated with Visual Assets & Mathematical Proofs
 
 ---
@@ -182,7 +182,7 @@ Files: 1 changed, 286 insertions(+)
 
 ## 🔗 Live Links
 
-**Repository URL:** https://github.com/sunny2196/IntraMind-Showcase (PUBLIC ✅)
+**Repository URL:** https://github.com/crux-ecosystem/IntraMind-Showcase (PUBLIC ✅)
 
 **Direct Asset Links:**
 - Performance Comparison: `showcase/performance-comparison.png`
@@ -378,7 +378,7 @@ The repository is now fully equipped with:
 
 ## 🎉 Final Status: COMPLETE ✅
 
-**Repository:** https://github.com/sunny2196/IntraMind-Showcase (PUBLIC ✅)  
+**Repository:** https://github.com/crux-ecosystem/IntraMind-Showcase (PUBLIC ✅)  
 **Visibility:** Public (Anyone can view)  
 **Status:** Ready for Academic/Professional Use  
 **Quality:** Publication Grade (300 DPI, Statistical Validation, Peer-Review Ready)
