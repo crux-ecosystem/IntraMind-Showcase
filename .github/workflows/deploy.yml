@@ -1,0 +1,77 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  validate-security:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Check for sensitive files
+        run: |
+          echo "🔍 Checking for sensitive files..."
+          
+          # Check for model weights
+          if find . -name "*.bin" -o -name "*.gguf" -o -name "*.pt" -o -name "*.pth"; then
+            echo "❌ ERROR: Model weights detected!"
+            exit 1
+          fi
+          
+          # Check for embeddings
+          if [ -d "embeddings" ] || [ -d "model_weights" ]; then
+            echo "❌ ERROR: Sensitive directories detected!"
+            exit 1
+          fi
+          
+          # Check for private code
+          if [ -d "components/rag_engine" ] || [ -d "components/llm_integration" ]; then
+            echo "❌ ERROR: Private code detected!"
+            exit 1
+          fi
+          
+          echo "✅ Security check passed!"
+      
+      - name: Validate .gitignore
+        run: |
+          echo "🔍 Validating .gitignore..."
+          
+          if ! grep -q "*.bin" .gitignore; then
+            echo "⚠️ WARNING: .gitignore should block *.bin files"
+          fi
+          
+          if ! grep -q "*.gguf" .gitignore; then
+            echo "⚠️ WARNING: .gitignore should block *.gguf files"
+          fi
+          
+          echo "✅ .gitignore validation complete!"

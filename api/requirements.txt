@@ -1,0 +1,10 @@
+# IntraMind Public Showcase - Demo API Dependencies
+# These are ONLY for the simulated demo API, not actual implementation
+
+fastapi==0.115.5
+uvicorn[standard]==0.34.0
+pydantic==2.10.3
+python-multipart==0.0.20
+
+# Note: Actual IntraMind uses additional proprietary packages
+# that are not included in this public repository

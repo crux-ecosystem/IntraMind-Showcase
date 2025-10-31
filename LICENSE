@@ -1,0 +1,101 @@
+# Creative Commons Attribution-NonCommercial 4.0 International License
+
+## IntraMind Public Showcase License
+
+**Copyright © 2025 CruxLabx - Mounesh Kodi**
+
+---
+
+## You are free to:
+
+**Share** — copy and redistribute the material in any medium or format
+
+**Adapt** — remix, transform, and build upon the material for non-commercial purposes
+
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+---
+
+## Under the following terms:
+
+**Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**NonCommercial** — You may not use the material for commercial purposes without explicit written permission from CruxLabx.
+
+**No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+---
+
+## Proprietary Components
+
+The following are **NOT** covered by this license and remain proprietary to CruxLabx:
+
+1. **Model Weights** - All neural network weights, embeddings, and fine-tuned parameters
+2. **Core Algorithms** - RAG engine implementation, Neuro-Weaver optimization logic
+3. **Inference Modules** - Proprietary LLM integration and generation pipelines
+4. **Training Data** - All datasets used for model training and evaluation
+5. **Internal APIs** - Authentication, access control, and backend services
+
+These components are **confidential** and protected under:
+- Trade secret laws
+- Proprietary software agreements
+- Copyright protection
+
+**Unauthorized access, reverse engineering, or commercial use is strictly prohibited.**
+
+---
+
+## Academic & Research Use
+
+**Academic institutions and researchers** may:
+
+✅ Reference IntraMind architecture in published papers (with citation)  
+✅ Compare benchmark results in academic studies  
+✅ Use publicly available documentation for educational purposes  
+✅ Request collaboration for non-commercial research projects  
+
+**Required Citation:**
+
+```bibtex
+@software{intramind2025,
+  author = {Kodi, Mounesh},
+  title = {IntraMind: Offline-First RAG System with Neural Context Optimization},
+  year = {2025},
+  publisher = {CruxLabx},
+  url = {https://github.com/crux-ecosystem/IntraMind},
+  version = {1.1.0}
+}
+```
+
+---
+
+## Commercial Use
+
+For **commercial licensing** inquiries, including:
+- Enterprise deployment
+- Model access
+- Custom integration
+- White-label solutions
+
+**Contact:** research@cruxlabx.dev
+
+---
+
+## Disclaimer
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+## Full Legal Text
+
+For the complete CC BY-NC 4.0 license text, visit:
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+---
+
+**Last Updated:** October 31, 2025  
+**License Version:** CC BY-NC 4.0 + Proprietary Addendum  
+**Owner:** CruxLabx (Mounesh Kodi)

@@ -1,0 +1,162 @@
+# ============================================================
+# IntraMind Public Showcase - .gitignore
+# Protects proprietary components from accidental exposure
+# ============================================================
+
+# ============================================================
+# CRITICAL: Model Weights & Embeddings (NEVER COMMIT)
+# ============================================================
+*.bin
+*.gguf
+*.pt
+*.pth
+*.safetensors
+*.h5
+*.pkl
+*.pickle
+/embeddings/
+/model_weights/
+/checkpoints/
+/trained_models/
+
+# ============================================================
+# Proprietary Code (Private Repo Only)
+# ============================================================
+/components/rag_engine/
+/components/llm_integration/
+/components/context_optimizer/
+/components/embedding_builder/
+/components/vector_store/
+*_private.py
+*_core.py
+/core/
+/internal/
+
+# ============================================================
+# Data & Storage (Local Only)
+# ============================================================
+/data/
+/storage/
+/chroma_db/
+/vector_db/
+/cache/
+/uploaded_docs/
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# Configuration & Secrets
+# ============================================================
+.env
+.env.local
+.env.production
+config_private.yaml
+secrets.yaml
+api_keys.txt
+credentials.json
+
+# ============================================================
+# Python Environment
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================
+# IDEs & Editors
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Logs & Debug
+# ============================================================
+*.log
+logs/
+*.log.*
+debug.log
+error.log
+
+# ============================================================
+# Temporary Files
+# ============================================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# ============================================================
+# System Files
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================================
+# Testing
+# ============================================================
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+*.cover
+.hypothesis/
+
+# ============================================================
+# Documentation Build
+# ============================================================
+docs/_build/
+site/
+
+# ============================================================
+# Jupyter Notebooks (if containing sensitive data)
+# ============================================================
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# ============================================================
+# ALLOW: Public Showcase Files
+# ============================================================
+# These ARE safe to commit:
+# - README.md
+# - LICENSE
+# - /docs/ (public documentation)
+# - /web/ (public website)
+# - /api/demo_api.py (simulated endpoints only)
+# - /assets/ (logos, banners)
+# - /showcase/ (screenshots, diagrams)
