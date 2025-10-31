@@ -196,7 +196,7 @@ https://github.com/crux-ecosystem/IntraMind-Showcase
 ### Commercial Use
 ⚠️ **Restricted:** Requires explicit permission from CruxLabx
 
-Contact: cruxlabx.research@gmail.com
+Contact: cruxlabx@gmail.com
 
 ### Technical Blog Posts
 ✅ **Allowed with attribution:**
@@ -272,7 +272,7 @@ python generate_charts.py
 ## 📧 Contact
 
 **For Questions or Collaboration:**
-- Email: cruxlabx.research@gmail.com
+- Email: cruxlabx@gmail.com
 - GitHub: [@crux-ecosystem](https://github.com/crux-ecosystem)
 - Author: Mounesh Kodi
 
