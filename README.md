@@ -1,4 +1,4 @@
-IntraMind
+**IntraMind**
 
 To empower institutions and private organizations with secure, offline-first AI systems that make every internal document instantly searchable, understandable, and actionable — without relying on the cloud.
 
