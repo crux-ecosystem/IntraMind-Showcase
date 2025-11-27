@@ -26,6 +26,7 @@ Built by **CruxLabx**, IntraMind runs **100% offline** with no cloud dependencie
 ### 🌟 Key Features
 
 - 🔒 **100% Offline** - Complete air-gap capability, zero external API calls
+- 🔐 **Military-Grade Encryption** - AES-256 encryption for sensitive documents (NIST/GDPR compliant)
 - ⚡ **5-10x Faster** - Advanced caching and async pipeline optimization
 - 🧠 **Neural Context Compression** - Proprietary Neuro-Weaver technology (40-60% token reduction)
 - 📚 **Multi-Format Support** - PDF, DOCX, Images with OCR
@@ -61,11 +62,12 @@ graph TB
 | **Embedding Model** | all-MiniLM-L6-v2 | 384-dimensional semantic vectors |
 | **Vector Database** | ChromaDB | Persistent similarity search |
 | **LLM Runtime** | Ollama | Local model inference |
+| **Encryption** | AES-256-GCM | Enterprise data security (at rest) |
 | **Optimization** | Neuro-Weaver™ | Proprietary context compression |
 | **Pipeline** | AsyncIO | Parallel processing (3-5x faster) |
 | **Caching** | LRU + Pre-warming | 1500x speedup for cached queries |
 
-> **Note:** Model weights and proprietary inference modules are private to CruxLabx R&D.
+> **Note:** Model weights, encryption keys, and proprietary inference modules are private to CruxLabx R&D.
 
 ---
 
@@ -178,7 +180,9 @@ IntraMind is built with privacy-first principles:
 ✅ **No External APIs** - All processing happens locally  
 ✅ **No Telemetry** - Zero data collection or tracking  
 ✅ **No Cloud Dependencies** - Fully air-gapped capable  
+✅ **Military-Grade Encryption** - AES-256-GCM for data at rest (NIST/OWASP/GDPR compliant)  
 ✅ **Local Storage Only** - All data stays on your infrastructure  
+✅ **Secure Key Management** - PBKDF2HMAC with 100k iterations  
 ✅ **Open Architecture** - Transparent design (core implementation private)  
 
 ---
