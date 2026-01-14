@@ -11,7 +11,7 @@
 [![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/crux-ecosystem/IntraMind/releases)
 [![Python](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/)
 
-[🌐 Website](https://cruxlabx.vercel.app) • [📖 Documentation](./docs/) • [🎓 Research Paper](./showcase/research-paper.pdf) • [🎥 Demo](./showcase/)
+[🌐 Website](https://cruxlabx.dev) • [📖 Documentation](./docs/)
 
 </div>
 
