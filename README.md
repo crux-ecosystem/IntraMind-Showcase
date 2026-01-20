@@ -213,7 +213,7 @@ Interested in collaboration or enterprise deployment?
 - 🌐 **Website:** [cruxlabx.vercel.app](https://cruxlabx.vercel.app)
 - 📧 **Email:** research@cruxlabx.dev
 - 💼 **LinkedIn:** [linkedin.com/in/mounesh-kodi](https://linkedin.com/in/mounesh-kodi)
-- 🐦 **Twitter:** [@CruxLabx](https://twitter.com/CruxLabx)
+- 🐦 **Twitter:** [@CruxLabx](https://x.com/mouneshkodi)
 
 ---
 
