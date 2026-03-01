@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — IntraMind</title>
+  <link rel="icon" type="image/png" href="media/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #0a0a0a;
+      color: #f5f5f7;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .container { max-width: 520px; }
+    h1 {
+      font-size: clamp(80px, 12vw, 120px);
+      font-weight: 800;
+      letter-spacing: -3px;
+      background: linear-gradient(135deg, #2997ff, #30d158);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+    }
+    p {
+      font-size: 18px;
+      color: #86868b;
+      margin: 20px 0 32px;
+      line-height: 1.6;
+    }
+    a {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 980px;
+      background: #f5f5f7;
+      color: #0a0a0a;
+      font-weight: 600;
+      font-size: 15px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    a:hover {
+      transform: scale(1.04);
+      box-shadow: 0 4px 24px rgba(41, 151, 255, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>404</h1>
+    <p>This page doesn't exist — much like our data on external servers.</p>
+    <a href="/">Back to IntraMind</a>
+  </div>
+</body>
+</html>

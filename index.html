@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IntraMind — Sovereign AI for Institutions</title>
+  <meta name="description" content="AI that runs inside your building. Not ours. On-premise knowledge platform for law firms, hospitals, CA firms, and universities." />
+  <meta name="keywords" content="sovereign AI, on-premise AI, institutional AI, RAG platform, India AI, data sovereignty" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="IntraMind — Sovereign AI for Institutions" />
+  <meta property="og:description" content="AI-powered knowledge platform that runs entirely inside your institution. No cloud. No internet. No compromise." />
+  <meta property="og:image" content="media/og-image.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="media/logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* Override font stack with Inter (free equivalent of SF Pro) */
+    :root {
+      --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-text: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     NAVIGATION
+     ═══════════════════════════════════════════════════════════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="media/logo.png" alt="IntraMind" />
+      <span>IntraMind</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#solutions">Solutions</a></li>
+      <li><a href="#platform">Platform</a></li>
+      <li><a href="#benchmarks">Benchmarks</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#enterprise">Enterprise</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HERO
+     ═══════════════════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-badge fade-in">Sovereign AI Platform</div>
+  <h1 class="fade-in stagger-1">
+    Intelligence that never<br /><span class="gradient">leaves your building.</span>
+  </h1>
+  <p class="hero-sub fade-in stagger-2">
+    On-premise AI that searches your documents, answers in seconds,
+    and keeps every byte inside your walls. No cloud. No internet. No compromise.
+  </p>
+  <div class="hero-ctas fade-in stagger-3">
+    <a href="#contact" class="btn-primary">Schedule a Demo</a>
+    <a href="#solutions" class="btn-secondary">Explore Solutions →</a>
+  </div>
+  <div class="hero-video fade-in stagger-4">
+    <video autoplay muted loop playsinline poster="media/screenshots/streamlit-main-ui.png">
+      <source src="media/ad-1.mp4" type="video/mp4" />
+    </video>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     THE PROBLEM
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section section-carbon" id="problem">
+  <div class="container">
+    <div class="section-label fade-in">The Problem</div>
+    <h2 class="section-title fade-in stagger-1">
+      Your most sensitive queries<br />leave your building every day.
+    </h2>
+    <p class="section-subtitle fade-in stagger-2">
+      Every AI tool your team uses sends data to servers you don't control,
+      in countries you can't audit, under terms you didn't negotiate.
+    </p>
+
+    <div class="problem-grid">
+      <div class="problem-card fade-in stagger-1">
+        <div class="icon">⚖️</div>
+        <h3>Law Firms</h3>
+        <p>Privileged case strategies typed into ChatGPT. Client matters processed on US servers. Attorney-client privilege — violated by default.</p>
+      </div>
+      <div class="problem-card fade-in stagger-2">
+        <div class="icon">🏥</div>
+        <h3>Hospitals</h3>
+        <p>Drug interaction queries sent to cloud APIs. Clinical decisions based on generic web results. Patient safety hanging on someone else's uptime.</p>
+      </div>
+      <div class="problem-card fade-in stagger-3">
+        <div class="icon">📊</div>
+        <h3>CA Firms</h3>
+        <p>Tax computations on external servers. Client financials in transit. TDS rates from last year's SEO article. One wrong section — lakhs in penalties.</p>
+      </div>
+      <div class="problem-card fade-in stagger-4">
+        <div class="icon">🏛️</div>
+        <h3>Universities</h3>
+        <p>Student records, exam patterns, administrative decisions — processed through tools that phone home. Data sovereignty is not optional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HOW IT WORKS
+     ═══════════════════════════════════════════════════════════ -->
+<div class="tagline fade-in">
+  IntraMind runs <em>entirely inside your institution</em> — on hardware you own,<br />
+  in a room you control. The AI, the data, the answers — everything stays.
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SOLUTIONS / EDITIONS
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section section-dark" id="solutions">
+  <div class="container-wide">
+    <div class="text-center">
+      <div class="section-label fade-in">Industry Solutions</div>
+      <h2 class="section-title fade-in stagger-1">
+        Purpose-built for your domain.
+      </h2>
+      <p class="section-subtitle mx-auto fade-in stagger-2">
+        Not generic AI. Each edition is built for the specific language,
+        regulations, and daily workflows of the institution it serves.
+      </p>
+    </div>
+
+    <div class="editions-grid">
+      <!-- Law Firm -->
+      <div class="edition-card fade-in stagger-1">
+        <span class="badge badge-designed">Designed</span>
+        <div class="icon">⚖️</div>
+        <h3>Law Firm Edition</h3>
+        <p>Instant section lookup across BNS, IPC, CrPC, BNSS, BSA. Supreme Court judgment search by ratio. Amendment tracking. Limitation period calculation. Cross-referencing across 50+ Acts.</p>
+        <div class="replaces">
+          <strong>Replaces:</strong> SCC Online, Manupatra, 3-hour junior research, ChatGPT for legal queries
+        </div>
+        <a href="solutions/law-firm.md" class="edition-link">Learn more →</a>
+      </div>
+
+      <!-- Healthcare -->
+      <div class="edition-card fade-in stagger-2">
+        <span class="badge badge-designed">Designed</span>
+        <div class="icon">🏥</div>
+        <h3>Healthcare Edition</h3>
+        <p>Drug interaction checks with severity grading. Clinical guideline retrieval cited to page level. Treatment protocol lookup. NABH/ABDM compliance built in.</p>
+        <div class="replaces">
+          <strong>Replaces:</strong> Micromedex, UpToDate, manual SOP binders, phone-a-colleague
+        </div>
+        <a href="solutions/healthcare.md" class="edition-link">Learn more →</a>
+      </div>
+
+      <!-- CA -->
+      <div class="edition-card fade-in stagger-3">
+        <span class="badge badge-designed">Designed</span>
+        <div class="icon">📊</div>
+        <h3>CA Edition</h3>
+        <p>IT Act sections with provisos. 400+ GST circulars indexed. Audit standards to paragraph level. ROC deadlines. TDS rates. Budget amendment tracking.</p>
+        <div class="replaces">
+          <strong>Replaces:</strong> Taxmann/CCH, WhatsApp CA groups, outdated TDS charts, ClearTax articles
+        </div>
+        <a href="solutions/ca.md" class="edition-link">Learn more →</a>
+      </div>
+
+      <!-- Library -->
+      <div class="edition-card fade-in stagger-4">
+        <span class="badge badge-production">Production</span>
+        <div class="icon">📚</div>
+        <h3>Library Edition</h3>
+        <p>Natural language catalog search. AI-powered book recommendations. Research assistance with cited answers from uploaded academic content. Deployed and operational.</p>
+        <div class="replaces">
+          <strong>Status:</strong> Live in production — first deployed edition
+        </div>
+        <a href="solutions/library.md" class="edition-link">Learn more →</a>
+      </div>
+
+      <!-- Administration -->
+      <div class="edition-card fade-in stagger-5">
+        <span class="badge badge-beta">Beta</span>
+        <div class="icon">🏛️</div>
+        <h3>Administration Edition</h3>
+        <p>Campus policy lookup. Administrative workflow assistance. Student and staff management guidance from institutional regulations.</p>
+        <div class="replaces">
+          <strong>Status:</strong> Beta — integrated in core platform
+        </div>
+        <a href="solutions/administration.md" class="edition-link">Learn more →</a>
+      </div>
+
+      <!-- Exam Cell -->
+      <div class="edition-card fade-in stagger-6">
+        <span class="badge badge-beta">Beta</span>
+        <div class="icon">📝</div>
+        <h3>Exam Cell Edition</h3>
+        <p>Examination regulation lookup. Scheduling guidance. Result processing procedures from institutional SOPs.</p>
+        <div class="replaces">
+          <strong>Status:</strong> Beta — integrated in core platform
+        </div>
+        <a href="solutions/exam-cell.md" class="edition-link">Learn more →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     VIDEO SHOWCASE
+     ═══════════════════════════════════════════════════════════ -->
+<section class="video-section section-gradient">
+  <div class="container">
+    <div class="section-label fade-in">See It In Action</div>
+    <h2 class="section-title fade-in stagger-1">
+      Type a question. Get a cited answer.
+    </h2>
+    <p class="section-subtitle mx-auto fade-in stagger-2">
+      No training. No prompt engineering. Just answers from your own documents.
+    </p>
+    <div class="video-wrapper fade-in stagger-3">
+      <video controls playsinline poster="media/screenshots/ask-question.png">
+        <source src="media/ad-2.mp4" type="video/mp4" />
+        Your browser does not support video playback.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     PLATFORM
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section section-dark" id="platform">
+  <div class="container">
+    <div class="text-center">
+      <div class="section-label fade-in">The Platform</div>
+      <h2 class="section-title fade-in stagger-1">
+        One engine. Every edition.
+      </h2>
+      <p class="section-subtitle mx-auto fade-in stagger-2">
+        Every IntraMind edition is built on the same battle-tested core platform.
+        What changes per edition is the knowledge, the interface, and the guardrails.
+      </p>
+    </div>
+
+    <div class="security-grid" style="margin-top: 64px;">
+      <div class="security-item fade-in stagger-1">
+        <div class="icon-box">🧠</div>
+        <div>
+          <h4>Proprietary AI Engine</h4>
+          <p>Local AI model running on your hardware. No external API calls. No data in transit. Ever.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-2">
+        <div class="icon-box">⚡</div>
+        <div>
+          <h4>Neuro-Weaver™ Optimization</h4>
+          <p>Proprietary context optimization that delivers faster, more precise answers with significantly less compute.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-3">
+        <div class="icon-box">📄</div>
+        <div>
+          <h4>Multi-Format Ingestion</h4>
+          <p>PDF, DOCX, scanned documents, images — everything gets ingested, processed, and made searchable.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-4">
+        <div class="icon-box">🔐</div>
+        <div>
+          <h4>Encrypted at Rest</h4>
+          <p>Every document, every index entry, every cached response — encrypted with military-grade encryption.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-5">
+        <div class="icon-box">👁️</div>
+        <div>
+          <h4>Complete Audit Trail</h4>
+          <p>Every query, answer, and user action logged with timestamps. Append-only. Tamper-proof.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-6">
+        <div class="icon-box">🎯</div>
+        <div>
+          <h4>Domain Guardrails</h4>
+          <p>AI stays in its lane. No hallucinated advice. No uncited answers. Reference-only with source attribution.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     BENCHMARKS
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section section-carbon" id="benchmarks">
+  <div class="container-wide">
+    <div class="text-center">
+      <div class="section-label fade-in">Performance</div>
+      <h2 class="section-title fade-in stagger-1">
+        Real numbers. Production hardware.
+      </h2>
+      <p class="section-subtitle mx-auto fade-in stagger-2">
+        No synthetic benchmarks. Measured on actual deployments with real documents.
+      </p>
+    </div>
+
+    <div class="metrics-strip fade-in stagger-3">
+      <div class="metric-item">
+        <div class="metric-value">&lt;0.01<span class="unit">s</span></div>
+        <div class="metric-label">Cached Query Response</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">1,500<span class="unit">×</span></div>
+        <div class="metric-label">Cache Speedup</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">60<span class="unit">%</span></div>
+        <div class="metric-label">Token Reduction</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-value">99.5<span class="unit">%</span></div>
+        <div class="metric-label">Production Uptime</div>
+      </div>
+    </div>
+
+    <!-- Comparison table -->
+    <div class="fade-in" style="margin-top: 80px;">
+      <h3 style="font-size: 24px; font-weight: 600; color: var(--white); text-align: center; margin-bottom: 32px;">
+        Before IntraMind vs. After
+      </h3>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Without IntraMind</th>
+            <th>With IntraMind</th>
+            <th>Improvement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="color: var(--light);">Legal section lookup</td>
+            <td class="dim">30 – 120 minutes</td>
+            <td class="highlight">&lt; 3 seconds</td>
+            <td class="highlight">600 – 2,400×</td>
+          </tr>
+          <tr>
+            <td style="color: var(--light);">Drug interaction check</td>
+            <td class="dim">5 – 15 minutes</td>
+            <td class="highlight">&lt; 5 seconds</td>
+            <td class="highlight">60 – 180×</td>
+          </tr>
+          <tr>
+            <td style="color: var(--light);">Tax section with proviso</td>
+            <td class="dim">20 – 60 minutes</td>
+            <td class="highlight">&lt; 5 seconds</td>
+            <td class="highlight">240 – 720×</td>
+          </tr>
+          <tr>
+            <td style="color: var(--light);">Repeat reference query</td>
+            <td class="dim">Same effort each time</td>
+            <td class="highlight">&lt; 0.01 seconds</td>
+            <td class="highlight">Instant</td>
+          </tr>
+          <tr>
+            <td style="color: var(--light);">Research from scratch</td>
+            <td class="dim">2 – 4 hours</td>
+            <td class="highlight">30 seconds</td>
+            <td class="highlight">240 – 480×</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SECURITY
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section section-dark" id="security">
+  <div class="container">
+    <div class="text-center">
+      <div class="section-label fade-in">Security</div>
+      <h2 class="section-title fade-in stagger-1">
+        Built for zero trust.
+      </h2>
+      <p class="section-subtitle mx-auto fade-in stagger-2">
+        Every external network is hostile. Every cloud provider is a compliance risk.
+        Every query contains sensitive information. We designed for that.
+      </p>
+    </div>
+
+    <div class="security-grid">
+      <div class="security-item fade-in stagger-1">
+        <div class="icon-box">🏢</div>
+        <div>
+          <h4>Physical Isolation</h4>
+          <p>Server sits inside your building. No internet. No phone home. No telemetry. Air-gapped by design.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-2">
+        <div class="icon-box">🔒</div>
+        <div>
+          <h4>Military-Grade Encryption</h4>
+          <p>Documents, embeddings, cache — all encrypted at rest. Keys generated and stored on-site. Never transmitted.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-3">
+        <div class="icon-box">🛡️</div>
+        <div>
+          <h4>Role-Based Access</h4>
+          <p>Enforced at the engine level, not just the UI. Different roles. Different content. No exceptions.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-4">
+        <div class="icon-box">📋</div>
+        <div>
+          <h4>Audit Everything</h4>
+          <p>Every query, every answer, every user action — append-only logs. Cannot be modified or deleted by any role.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-5">
+        <div class="icon-box">✅</div>
+        <div>
+          <h4>Content Governance</h4>
+          <p>Admin review and approval before any document enters the knowledge base. Rejections quarantined with reason.</p>
+        </div>
+      </div>
+      <div class="security-item fade-in stagger-6">
+        <div class="icon-box">🚫</div>
+        <div>
+          <h4>Zero External Calls</h4>
+          <p>No cloud, no SaaS AI, no auto-updates, no analytics beacons. Nothing leaves. Verified by architecture.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     ENTERPRISE
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section section-carbon" id="enterprise">
+  <div class="container">
+    <div class="text-center">
+      <div class="section-label fade-in">Enterprise</div>
+      <h2 class="section-title fade-in stagger-1">
+        We deploy AI inside institutions.<br />Not to them.
+      </h2>
+      <p class="section-subtitle mx-auto fade-in stagger-2">
+        Direct engagement. On-site deployment. Complete handover.
+        No app store. No SaaS. No subscription traps.
+      </p>
+    </div>
+
+    <div class="editions-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-top: 64px;">
+      <div class="edition-card fade-in stagger-1" style="padding: 32px;">
+        <h3 style="font-size: 18px; margin-bottom: 8px;">💰 Hardware</h3>
+        <p style="font-size: 28px; color: var(--white); font-weight: 700; margin-bottom: 4px;">₹3 – 8L</p>
+        <p style="margin-bottom: 0;">One-time. Your server. You own it.</p>
+      </div>
+      <div class="edition-card fade-in stagger-2" style="padding: 32px;">
+        <h3 style="font-size: 18px; margin-bottom: 8px;">🔧 Deployment</h3>
+        <p style="font-size: 28px; color: var(--white); font-weight: 700; margin-bottom: 4px;">4 – 7 months</p>
+        <p style="margin-bottom: 0;">Discovery to full production. Training included.</p>
+      </div>
+      <div class="edition-card fade-in stagger-3" style="padding: 32px;">
+        <h3 style="font-size: 18px; margin-bottom: 8px;">♾️ License</h3>
+        <p style="font-size: 28px; color: var(--white); font-weight: 700; margin-bottom: 4px;">No per-seat fees</p>
+        <p style="margin-bottom: 0;">No annual subscription. No usage billing. No cloud bills.</p>
+      </div>
+    </div>
+
+    <!-- What they get -->
+    <div class="fade-in" style="margin-top: 80px;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Phase</th>
+            <th>What Happens</th>
+            <th>Timeline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="color: var(--white); font-weight: 600;">Discovery</td>
+            <td>Requirements study. Content audit. Stakeholder interviews.</td>
+            <td class="highlight">1 – 2 weeks</td>
+          </tr>
+          <tr>
+            <td style="color: var(--white); font-weight: 600;">Infrastructure</td>
+            <td>Server deployment on-site. Platform installation.</td>
+            <td class="highlight">1 – 2 weeks</td>
+          </tr>
+          <tr>
+            <td style="color: var(--white); font-weight: 600;">Domain Build</td>
+            <td>Knowledge base creation. UI customization. Guardrails. Roles.</td>
+            <td class="highlight">8 – 12 weeks</td>
+          </tr>
+          <tr>
+            <td style="color: var(--white); font-weight: 600;">Pilot</td>
+            <td>Controlled deployment. Real usage. Quality evaluation.</td>
+            <td class="highlight">4 weeks</td>
+          </tr>
+          <tr>
+            <td style="color: var(--white); font-weight: 600;">Full Rollout</td>
+            <td>Institution-wide deployment. Staff training. Handover.</td>
+            <td class="highlight">2 – 4 weeks</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     WHAT WE DON'T TELL YOU
+     ═══════════════════════════════════════════════════════════ -->
+<div class="divider"></div>
+<section class="section section-dark" id="research">
+  <div class="container">
+    <div class="text-center">
+      <div class="section-label fade-in">Research & IP</div>
+      <h2 class="section-title fade-in stagger-1">
+        What we don't publish.
+      </h2>
+      <p class="section-subtitle mx-auto fade-in stagger-2" style="max-width: 720px;">
+        We don't share our model architecture. We don't list our internal tooling.
+        We don't open-source our algorithms. That's intentional — the proprietary
+        intelligence behind every query, every citation, every guardrail is what
+        separates IntraMind from every open-source tutorial on the internet.
+      </p>
+    </div>
+
+    <div class="editions-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-top: 64px;">
+      <div class="edition-card fade-in stagger-1" style="padding: 32px;">
+        <h3 style="font-size: 18px;">Neuro-Weaver™</h3>
+        <p>Proprietary context optimization. 40–60% compute reduction while improving answer precision. Algorithm details under NDA.</p>
+      </div>
+      <div class="edition-card fade-in stagger-2" style="padding: 32px;">
+        <h3 style="font-size: 18px;">Domain-Adaptive Retrieval</h3>
+        <p>Structural understanding of Indian legal, medical, and financial knowledge hierarchies. Not prompt engineering — architectural intelligence.</p>
+      </div>
+      <div class="edition-card fade-in stagger-3" style="padding: 32px;">
+        <h3 style="font-size: 18px;">Sovereign Architecture</h3>
+        <p>Zero-dependency offline operation without performance trade-offs. Hard engineering constraints solved. Methodology proprietary.</p>
+      </div>
+    </div>
+
+    <p class="fade-in" style="text-align: center; margin-top: 48px; color: var(--silver); font-size: 15px;">
+      Technical papers available under NDA for institutions in the evaluation phase.
+      <br /><a href="mailto:research@cruxlabx.dev" style="margin-top: 8px; display: inline-block;">research@cruxlabx.dev →</a>
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     CTA / CONTACT
+     ═══════════════════════════════════════════════════════════ -->
+<div class="divider"></div>
+<section class="enterprise-cta section-dark" id="contact">
+  <div class="cta-box fade-in">
+    <h2>Ready to bring AI<br />inside your walls?</h2>
+    <p>
+      IntraMind is deployed through direct engagement.
+      We work with institutions, not app stores.
+    </p>
+    <div class="cta-contacts">
+      <div>
+        <span class="label">General —</span>
+        <a href="mailto:team@cruxlabx.dev">team@cruxlabx.dev</a>
+      </div>
+      <div>
+        <span class="label">Research —</span>
+        <a href="mailto:research@cruxlabx.dev">research@cruxlabx.dev</a>
+      </div>
+      <div>
+        <span class="label">Deployment —</span>
+        <a href="mailto:ops@cruxlabx.dev">ops@cruxlabx.dev</a>
+      </div>
+    </div>
+    <div style="margin-top: 40px;">
+      <a href="mailto:team@cruxlabx.dev" class="btn-primary">Schedule a Demo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <ul class="footer-links">
+    <li><a href="#solutions">Solutions</a></li>
+    <li><a href="#platform">Platform</a></li>
+    <li><a href="#benchmarks">Benchmarks</a></li>
+    <li><a href="#security">Security</a></li>
+    <li><a href="#enterprise">Enterprise</a></li>
+    <li><a href="#research">Research</a></li>
+  </ul>
+  <p>
+    © 2026 CruxLabx Technologies. All rights reserved.<br />
+    IntraMind and Neuro-Weaver are proprietary technologies of CruxLabx Technologies.
+  </p>
+</footer>
+
+<!-- ═══════════════════════════════════════════════════════════
+     SCRIPTS — Scroll animations
+     ═══════════════════════════════════════════════════════════ -->
+<script>
+  // Intersection Observer for fade-in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Smooth nav background on scroll
+  const nav = document.querySelector('.nav');
+  window.addEventListener('scroll', () => {
+    nav.style.background = window.scrollY > 10
+      ? 'rgba(10, 10, 10, 0.92)'
+      : 'rgba(10, 10, 10, 0.72)';
+  });
+</script>
+
+</body>
+</html>

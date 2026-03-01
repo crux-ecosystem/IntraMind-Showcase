@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <a href="https://crux-ecosystem.github.io/IntraMind-Showcase/">🌐 <strong>Visit Website</strong></a>
+</p>
+
+<p align="center">
   <a href="#what-intramind-does">Platform</a> · 
   <a href="solutions/">Solutions</a> · 
   <a href="platform/benchmarks.md">Benchmarks</a> · 

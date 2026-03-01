@@ -37,8 +37,8 @@ jobs:
         run: |
           echo "Checking for accidentally committed proprietary content..."
           FAIL=0
-          # No source code files
-          for ext in py js ts rs go java; do
+          # No source code files (allow .js for website functionality)
+          for ext in py ts rs go java; do
             if find . -name "*.$ext" -not -path "./.github/*" | grep -q .; then
               echo "ALERT: Found .$ext source files"
               FAIL=1
