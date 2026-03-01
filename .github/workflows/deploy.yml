@@ -1,9 +1,8 @@
-name: Deploy Documentation
+name: Deploy Showcase
 
 on:
   push:
-    branches:
-      - main
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
@@ -11,67 +10,56 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  deploy-docs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
-      
-      - name: Deploy to GitHub Pages
-        id: deployment
+          path: .
+      - id: deployment
         uses: actions/deploy-pages@v4
 
-  validate-security:
+  security-check:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      
-      - name: Check for sensitive files
+      - uses: actions/checkout@v4
+      - name: Verify no proprietary content
         run: |
-          echo "🔍 Checking for sensitive files..."
-          
-          # Check for model weights
-          if find . -name "*.bin" -o -name "*.gguf" -o -name "*.pt" -o -name "*.pth"; then
-            echo "❌ ERROR: Model weights detected!"
+          echo "Checking for accidentally committed proprietary content..."
+          FAIL=0
+          # No source code files
+          for ext in py js ts rs go java; do
+            if find . -name "*.$ext" -not -path "./.github/*" | grep -q .; then
+              echo "ALERT: Found .$ext source files"
+              FAIL=1
+            fi
+          done
+          # No model files
+          for ext in bin gguf pt pth safetensors h5 pkl; do
+            if find . -name "*.$ext" | grep -q .; then
+              echo "ALERT: Found .$ext model files"
+              FAIL=1
+            fi
+          done
+          # No dependency files
+          for f in requirements.txt package.json Pipfile pyproject.toml; do
+            if find . -name "$f" | grep -q .; then
+              echo "ALERT: Found $f"
+              FAIL=1
+            fi
+          done
+          if [ $FAIL -eq 1 ]; then
+            echo "Security check FAILED — proprietary content detected"
             exit 1
           fi
-          
-          # Check for embeddings
-          if [ -d "embeddings" ] || [ -d "model_weights" ]; then
-            echo "❌ ERROR: Sensitive directories detected!"
-            exit 1
-          fi
-          
-          # Check for private code
-          if [ -d "components/rag_engine" ] || [ -d "components/llm_integration" ]; then
-            echo "❌ ERROR: Private code detected!"
-            exit 1
-          fi
-          
-          echo "✅ Security check passed!"
-      
-      - name: Validate .gitignore
-        run: |
-          echo "🔍 Validating .gitignore..."
-          
-          if ! grep -q "*.bin" .gitignore; then
-            echo "⚠️ WARNING: .gitignore should block *.bin files"
-          fi
-          
-          if ! grep -q "*.gguf" .gitignore; then
-            echo "⚠️ WARNING: .gitignore should block *.gguf files"
-          fi
-          
-          echo "✅ .gitignore validation complete!"
+          echo "Security check passed."

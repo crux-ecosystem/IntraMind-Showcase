@@ -1,249 +1,282 @@
-# 🧠 IntraMind - Offline-First AI Knowledge Base
+<p align="center">
+  <!-- Replace with actual logo -->
+  <img src="media/intramind-logo.png" alt="IntraMind" width="120" />
+</p>
+
+<h1 align="center">IntraMind</h1>
+
+<p align="center">
+  <strong>Sovereign AI for institutions that refuse to compromise on data ownership.</strong>
+</p>
+
+<p align="center">
+  <a href="#what-intramind-does">Platform</a> · 
+  <a href="solutions/">Solutions</a> · 
+  <a href="platform/benchmarks.md">Benchmarks</a> · 
+  <a href="enterprise/">Enterprise</a> · 
+  <a href="research/">Research</a> · 
+  <a href="#contact">Contact</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Deployment-On--Premise-0A0A0A?style=flat-square" alt="On-Premise" />
+  <img src="https://img.shields.io/badge/Data_Leaves-Never-0A0A0A?style=flat-square" alt="Data Never Leaves" />
+  <img src="https://img.shields.io/badge/Internet-Not_Required-0A0A0A?style=flat-square" alt="No Internet" />
+  <img src="https://img.shields.io/badge/Editions-6_Industries-0A0A0A?style=flat-square" alt="6 Editions" />
+</p>
+
+---
+
+<br />
+
+## The Problem
+
+Every day, institutions across India feed sensitive queries into AI tools hosted on servers they don't control, in countries they can't audit, under terms they didn't negotiate.
+
+A lawyer asks about an ongoing case strategy. A doctor queries a drug interaction. A CA looks up a client's tax situation. A university handles exam content.
+
+**Every one of those queries leaves the building. None of them should.**
+
+<br />
+
+## What IntraMind Does
+
+IntraMind is an **AI-powered knowledge platform** that runs entirely inside your institution — on hardware you own, in a room you control.
+
+**Ask questions in plain language. Get cited, verified answers from your own documents. In seconds.**
+
+No cloud. No internet dependency. No third-party data processing. The AI model, the knowledge base, the search engine, the encryption layer — everything runs on a single server inside your walls.
+
+<br />
+
+<p align="center">
+  <!-- Replace with product hero image/video -->
+  <img src="media/hero-demo.png" alt="IntraMind in action" width="800" />
+  <br />
+  <em>Natural language query → Cited answer in under 3 seconds</em>
+</p>
+
+<br />
+
+## How It Works — What You See
+
+```
+You ask a question in plain language
+       ↓
+IntraMind searches your entire knowledge base
+       ↓
+Returns the answer with exact citations
+       ↓
+Every query logged. Every answer traceable.
+```
+
+That's it. No training required. No prompt engineering. Type a question, get a cited answer.
+
+The intelligence behind this — the proprietary models, the retrieval architecture, the optimization layers — is ours. What you experience is simplicity.
+
+<br />
+
+## Industry Solutions
+
+IntraMind isn't generic. Each edition is purpose-built for the domain it serves — different knowledge bases, different guardrails, different interfaces.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚖️ <a href="solutions/law-firm.md">Law Firm Edition</a></h3>
+      <p>Instant section lookup across BNS, IPC, CrPC, BNSS, BSA. Supreme Court judgment search. Amendment tracking. Limitation period calculation. Cross-referencing across 50+ Acts.</p>
+      <p><strong>Replaces:</strong> Manual statute lookup, 3-hour junior research, outdated legal databases</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏥 <a href="solutions/healthcare.md">Healthcare Edition</a></h3>
+      <p>Drug interaction checks with severity grading. Clinical guideline retrieval cited to page level. Treatment protocol lookup. NABH/ABDM compliance built in.</p>
+      <p><strong>Replaces:</strong> Micromedex subscriptions, manual SOP lookup, phone-a-colleague</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 <a href="solutions/ca.md">CA Edition</a></h3>
+      <p>IT Act sections with provisos. 400+ GST circulars indexed. Audit standards to paragraph level. ROC deadlines. TDS rates. Budget amendment tracking.</p>
+      <p><strong>Replaces:</strong> Taxmann/CCH subscriptions, WhatsApp CA groups, outdated TDS charts</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 <a href="solutions/library.md">Library Edition</a></h3>
+      <p>Natural language catalog search. AI-powered book recommendations. Research assistance with cited answers from uploaded academic content.</p>
+      <p><strong>Status:</strong> Production — deployed and operational</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏛️ <a href="solutions/administration.md">Administration Edition</a></h3>
+      <p>Campus policy lookup. Administrative workflow assistance. Student and staff management guidance from institutional regulations.</p>
+      <p><strong>Status:</strong> Beta — integrated in core platform</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📝 <a href="solutions/exam-cell.md">Exam Cell Edition</a></h3>
+      <p>Examination regulation lookup. Scheduling guidance. Result processing procedures from institutional SOPs.</p>
+      <p><strong>Status:</strong> Beta — integrated in core platform</p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+> **Every edition. Same promise.**  
+> Your data never leaves your building. Ever.
+
+<br />
+
+## Performance
+
+Real numbers. Measured on production hardware. No synthetic benchmarks.
+
+| Metric | Result |
+|--------|--------|
+| **Cold query response** | Under 15 seconds |
+| **Cached query response** | Under 0.01 seconds |
+| **Cache speedup** | 1,500× faster |
+| **Document indexing** | 12 seconds per batch |
+| **Context optimization** | 40–60% token reduction |
+| **Memory efficiency** | 40% reduction vs. standard RAG |
+| **Uptime (production)** | 99.5%+ |
+| **Documents indexed** | 470+ and growing |
+
+→ [Full benchmark report](platform/benchmarks.md)
+
+<br />
+
+<p align="center">
+  <!-- Replace with benchmark chart image -->
+  <img src="media/benchmark-chart.png" alt="IntraMind Performance" width="700" />
+</p>
+
+<br />
+
+## Security Architecture
+
+IntraMind was built for institutions where data breaches aren't just expensive — they're unacceptable.
+
+| Layer | What It Means |
+|-------|--------------|
+| **Physical isolation** | Server sits inside your building. No internet connection needed or used. |
+| **Encryption at rest** | Every document, every embedding, every cache entry — encrypted. |
+| **Role-based access** | Different roles see different content. Enforced at the engine level, not just the UI. |
+| **Complete audit trail** | Every query, every answer, every user action — logged with timestamps. |
+| **Content approval** | Documents must be reviewed and approved before entering the knowledge base. |
+| **No external calls** | The AI model runs locally. Zero API calls to any external provider. Ever. |
+
+→ [Security deep-dive](platform/security.md)
+
+<br />
+
+## Deployment Model
+
+One server. Your building. That's the entire infrastructure.
+
+| | Specification |
+|-|--------------|
+| **Form factor** | Desktop-sized server |
+| **Installation** | On-site by CruxLabx team |
+| **Internet** | Not required |
+| **Maintenance** | Remote-capable (on your terms) or fully on-site |
+| **Data location** | Never leaves the server |
+| **Scaling** | Additional servers for larger institutions |
+
+**No cloud bills. No per-user pricing. No annual subscription traps.**
+
+→ [Enterprise engagement details](enterprise/)
+
+<br />
+
+## Who This Is For
+
+IntraMind is built for institutions that handle sensitive information and cannot — legally, ethically, or strategically — send that data to external AI providers.
+
+- **Law firms** handling privileged client communications
+- **Hospitals** processing patient data under clinical confidentiality
+- **CA firms** managing client financials and tax computations
+- **Universities** protecting student records and exam content
+- **Government departments** bound by data sovereignty requirements
+
+If your institution's data is too sensitive for someone else's server, IntraMind belongs inside your building.
+
+<br />
+
+## What We Don't Tell You
+
+We don't publish our model architecture. We don't share our optimization algorithms. We don't list our internal tooling.
+
+**That's intentional.**
+
+IntraMind's value is in what it does for your institution — not in how it's built. The proprietary intelligence that powers every query, every citation, every guardrail is what separates IntraMind from every open-source RAG tutorial on the internet.
+
+What we do share: **results, benchmarks, and references from real deployments.**
+
+<br />
+
+<p align="center">
+  <!-- Replace with product screenshot or video thumbnail -->
+  <img src="media/product-screenshot.png" alt="IntraMind Interface" width="800" />
+  <br />
+  <em>Clean interface. Cited answers. Full audit trail.</em>
+</p>
+
+<br />
+
+## Research & Innovation
+
+IntraMind is built on original research in retrieval-augmented generation, context optimization, and sovereign AI deployment.
+
+- **Neuro-Weaver** — Proprietary context optimization that reduces computational load while improving answer precision
+- **Domain-adaptive retrieval** — Purpose-built for Indian legal, medical, and financial corpora
+- **Sovereign deployment architecture** — Zero-dependency offline operation without performance compromise
+
+Published research and technical papers available under NDA.
+
+→ [Research overview](research/)
+
+<br />
+
+---
+
+<br />
+
+<h2 id="contact" align="center">Let's Talk</h2>
+
+<p align="center">
+  IntraMind is deployed through direct engagement.<br />
+  We work with institutions, not app stores.
+</p>
+
+<br />
 
 <div align="center">
 
-![IntraMind Logo](./assets/intramind-banner.png)
-
-**Next-Generation RAG System for Private, Offline AI Intelligence**
-
-[![GitHub Stars](https://img.shields.io/github/stars/crux-ecosystem/IntraMind?style=social)](https://github.com/crux-ecosystem/IntraMind)
-[![License](https://img.shields.io/badge/License-CC--BY--NC-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/crux-ecosystem/IntraMind/releases)
-[![Python](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/)
-
-[🌐 Website](https://cruxlabx.dev) • [📖 Documentation](./docs/)
+| | |
+|-|-|
+| **General inquiries** | [team@cruxlabx.dev](mailto:team@cruxlabx.dev) |
+| **Research & partnerships** | [research@cruxlabx.dev](mailto:research@cruxlabx.dev) |
+| **Deployment & operations** | [ops@cruxlabx.dev](mailto:ops@cruxlabx.dev) |
 
 </div>
 
----
+<br />
 
-## 🎯 What is IntraMind?
+<p align="center">
+  <strong>CruxLabx Technologies</strong><br />
+  <em>Sovereign AI for Indian Institutions</em>
+</p>
 
-**IntraMind** is a cutting-edge **Retrieval-Augmented Generation (RAG)** system designed for organizations and researchers who need **AI-powered document intelligence** without compromising data privacy. 
+<p align="center">
+  We build systems that run inside your walls. Not ours.
+</p>
 
-Built by **CruxLabx**, IntraMind runs **100% offline** with no cloud dependencies, ensuring your sensitive documents never leave your infrastructure.
-
-### 🌟 Key Features
-
-- 🔒 **100% Offline** - Complete air-gap capability, zero external API calls
-- 🔐 **Military-Grade Encryption** - AES-256 encryption for sensitive documents (NIST/GDPR compliant)
-- ⚡ **5-10x Faster** - Advanced caching and async pipeline optimization
-- 🧠 **Neural Context Compression** - Proprietary Neuro-Weaver technology (40-60% token reduction)
-- 📚 **Multi-Format Support** - PDF, DOCX, Images with OCR
-- 🎯 **Enterprise-Ready** - Production-grade architecture with 470+ documents indexed
-- 🔬 **Research-Backed** - Academic validation with published benchmarks
+<br />
 
 ---
 
-## 🏗️ System Architecture
-
-```mermaid
-graph TB
-    A[Documents] --> B[OCR Engine]
-    B --> C[Document Parser]
-    C --> D[Embedding Builder]
-    D --> E[Vector Store<br/>ChromaDB]
-    F[User Query] --> G[Query Engine]
-    G --> E
-    E --> H[RAG Engine]
-    H --> I[Context Optimizer<br/>Neuro-Weaver]
-    I --> J[LLM Integration<br/>Quantized Model]
-    J --> K[Answer + Sources]
-    
-    style I fill:#ff6b6b
-    style J fill:#4ecdc4
-    style E fill:#95e1d3
-```
-
-### 🧩 Core Components
-
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| **Embedding Model** | all-MiniLM-L6-v2 | 384-dimensional semantic vectors |
-| **Vector Database** | ChromaDB | Persistent similarity search |
-| **LLM Runtime** | Ollama | Local model inference |
-| **Encryption** | AES-256-GCM | Enterprise data security (at rest) |
-| **Optimization** | Neuro-Weaver™ | Proprietary context compression |
-| **Pipeline** | AsyncIO | Parallel processing (3-5x faster) |
-| **Caching** | LRU + Pre-warming | 1500x speedup for cached queries |
-
-> **Note:** Model weights, encryption keys, and proprietary inference modules are private to CruxLabx R&D.
-
----
-
-## 📊 Performance Benchmarks
-
-### v1.1 Speed Boost Results
-
-| Metric | v1.0 | v1.1 | Improvement |
-|--------|------|------|-------------|
-| **Batch Upload (3 PDFs)** | 45s | 12s | **73% faster** ⚡ |
-| **Cached Query** | 15s | 0.01s | **1500x faster** 🚀 |
-| **Context Size** | 4000 chars | 1600 chars | **60% smaller** 📉 |
-| **Memory Usage** | 2.5 GB | 1.5 GB | **40% reduction** 💾 |
-
-### Real-World Performance
-
-- ⚡ **Average Query Time:** 14.98s (cold), <10ms (cached)
-- 🔍 **Retrieval Speed:** <1ms (instant semantic search)
-- 🧠 **Context Compression:** 16.7% average (up to 60% on redundant docs)
-- 💾 **Model Size:** 986 MB (quantized 4-bit)
-
----
-
-## 🎓 Research & Innovation
-
-IntraMind introduces several novel techniques:
-
-### 1️⃣ **Neuro-Weaver Context Optimization**
-A proprietary semantic deduplication algorithm that achieves 40-60% token reduction while maintaining answer quality.
-
-**Key Innovations:**
-- Query-aware sentence extraction
-- Cosine similarity-based redundancy removal (threshold: 0.85)
-- Semantic boundary-preserving chunking
-
-### 2️⃣ **Quantized LLM Deployment**
-Efficient Q4_K_M quantization delivering:
-- 40% model size reduction
-- 2-3x inference speedup
-- <2% accuracy degradation
-
-### 3️⃣ **Hybrid Caching Strategy**
-- LRU cache + pre-warming
-- Adaptive query pattern learning
-- 1500x speedup for frequent queries
-
----
-
-## 🚀 Use Cases
-
-IntraMind is designed for:
-
-- 🏥 **Healthcare** - HIPAA-compliant patient record analysis
-- ⚖️ **Legal** - Confidential case law research
-- 🎓 **Academia** - Private research paper knowledge bases
-- 🏢 **Enterprise** - Internal document search without cloud exposure
-- 🛡️ **Government** - Air-gapped intelligence systems
-- 🔬 **R&D Labs** - Proprietary technical documentation
-
----
-
-## 💡 Demo
-
-### Example Query
-
-```python
-# Query simulation (actual implementation is private)
-query = "What are the types of persistence in data structures?"
-
-response = {
-    "answer": """There are three main types of persistence:
-    1. Partial Persistence: Only past versions accessible
-    2. Full Persistence: All versions modifiable
-    3. Confluent Persistence: Versions can be merged""",
-    
-    "sources": [
-        {"doc": "Advanced_DS.pdf", "similarity": 0.89},
-        {"doc": "Algorithms_Book.pdf", "similarity": 0.76}
-    ],
-    
-    "performance": {
-        "query_time": "0.009s",
-        "cached": True,
-        "context_reduction": "42%"
-    }
-}
-```
-
-### System Output
-![IntraMind Demo](./showcase/demo-screenshot.png)
-
----
-
-## 📖 Documentation
-
-Explore the full documentation:
-
-- 📘 [Architecture Overview](./docs/architecture.md)
-- 📗 [Performance Guide](./docs/performance.md)
-- 📙 [API Reference](./docs/api-reference.md)
-- 📕 [Research Paper](./showcase/research-paper.pdf)
-- 📓 [System Proof Document](./docs/system-proof.md)
-
----
-
-## 🔐 Privacy & Security
-
-IntraMind is built with privacy-first principles:
-
-✅ **No External APIs** - All processing happens locally  
-✅ **No Telemetry** - Zero data collection or tracking  
-✅ **No Cloud Dependencies** - Fully air-gapped capable  
-✅ **Military-Grade Encryption** - AES-256-GCM for data at rest (NIST/OWASP/GDPR compliant)  
-✅ **Local Storage Only** - All data stays on your infrastructure  
-✅ **Secure Key Management** - PBKDF2HMAC with 100k iterations  
-✅ **Open Architecture** - Transparent design (core implementation private)  
-
----
-
-## 🏆 Recognition
-
-- 🎓 **Academic Validation** - Comprehensive benchmark testing
-- 📊 **Performance Leader** - 5-10x faster than baseline RAG systems
-- 🔬 **Research Innovation** - Novel Neuro-Weaver compression technique
-- 💼 **Enterprise-Ready** - Production deployment with 470+ documents
-
----
-
-## 🌐 About CruxLabx
-
-**CruxLabx** is a research and development initiative focused on building next-generation AI systems that prioritize privacy, efficiency, and innovation.
-
-**Founded by:** Mounesh Kodi  
-**Focus Areas:** Offline AI, RAG Optimization, Edge Intelligence  
-**Mission:** Making advanced AI accessible without compromising data sovereignty  
-
----
-
-## 📬 Contact & Collaboration
-
-Interested in collaboration or enterprise deployment?
-
-- 🌐 **Website:** [cruxlabx.vercel.app](https://cruxlabx.vercel.app)
-- 📧 **Email:** research@cruxlabx.dev
-- 💼 **LinkedIn:** [linkedin.com/in/mounesh-kodi](https://linkedin.com/in/mounesh-kodi)
-- 🐦 **Twitter:** [@CruxLabx](https://x.com/mouneshkodi)
-
----
-
-## 📜 License
-
-**IntraMind Public Showcase** is released under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE).
-
-- ✅ **You can:** View, study, and reference this work
-- ✅ **You can:** Use for academic research with attribution
-- ❌ **You cannot:** Use commercially without explicit permission
-- ❌ **You cannot:** Access proprietary model weights or core algorithms
-
-> Model weights and proprietary inference modules are private to CruxLabx R&D.
-
----
-
-## 🙏 Acknowledgments
-
-Built with cutting-edge open-source technologies:
-- [Sentence Transformers](https://www.sbert.net/)
-- [ChromaDB](https://www.trychroma.com/)
-- [Ollama](https://ollama.ai/)
-- [LangChain](https://python.langchain.com/)
-
----
-
-<div align="center">
-
-**⭐ Star this repo if IntraMind inspires your AI journey!**
-
-Made with 🧠 by [CruxLabx](https://cruxlabx.vercel.app)
-
-</div>
+<p align="center">
+  <sub>© 2026 CruxLabx Technologies. All rights reserved.<br />
+  IntraMind and Neuro-Weaver are proprietary technologies of CruxLabx Technologies.<br />
+  Unauthorized reproduction, reverse engineering, or derivative work is prohibited.</sub>
+</p>
